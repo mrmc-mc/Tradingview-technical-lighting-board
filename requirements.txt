@@ -1,0 +1,9 @@
+asgiref
+certifi
+charset-normalizer
+Django
+idna
+requests
+sqlparse
+tradingview-ta
+urllib3
