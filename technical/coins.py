@@ -3,7 +3,7 @@ from tradingview_ta import TA_Handler, Interval, Exchange
 
 
 class Hour():
-
+        @staticmethod
         def summary(hour,pair):
 
                 if hour == 1:Interv=Interval.INTERVAL_1_HOUR 
