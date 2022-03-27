@@ -14,14 +14,8 @@ class Index(View):
 
                 context['pageview'] = "تکنیکال"
                 context['title'] = "تکنیکال"
-                h1 = TA_Handler(
-                symbol="ANTUSD",
-                screener="CRYPTO",
-                exchange="BINANCE",
-                interval=Interval.INTERVAL_1_HOUR,
-                # proxies={'http': 'http://example.com:8080'} # Uncomment to enable proxy (replace the URL).
-                )
                 
+                # Sample coins
                 context['ada1'] =      Hour.summary(1, "ADAUSD")
                 context['ada2'] =      Hour.summary(2, "ADAUSD")
                 context['ada4'] =      Hour.summary(4, "ADAUSD")
